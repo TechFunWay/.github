@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/TechFunWay/.github/main/profile/assets/icon-smallgo.png" width="96" alt="科技智趣坊" />
+<img src="https://raw.githubusercontent.com/TechFunWay/.github/main/profile/assets/icon-bookmarks.png" width="96" alt="科技智趣坊" />
 
 # 科技智趣坊 · TechFunWay
 
@@ -11,7 +11,7 @@
 [官网](https://techfunway.wycto.cn) ・ [应用全家福](#应用全家福) ・ [应用矩阵](#应用矩阵) ・ [界面预览](#界面预览) ・ [已发布情况](#已发布情况) ・ [哔哩哔哩](https://space.bilibili.com/1350401468) ・ [小红书](https://www.xiaohongshu.com/user/profile/612ebe7d000000000201e2a9) ・ [抖音](https://v.douyin.com/N2cDoBbom1Q/) ・ [Gitee](https://gitee.com/TechFunWay)
 
 [![官网](https://img.shields.io/badge/官网-techfunway.wycto.cn-1f6feb?logo=googlechrome&logoColor=white)](https://techfunway.wycto.cn)
-[![应用](https://img.shields.io/badge/自托管应用-15%20款-2ea44f)](#应用全家福)
+[![应用](https://img.shields.io/badge/自托管应用-13%20款-2ea44f)](#应用全家福)
 [![GitHub](https://img.shields.io/badge/GitHub-TechFunWay-181717?logo=github&logoColor=white)](https://github.com/TechFunWay)
 [![Gitee](https://img.shields.io/badge/Gitee-TechFunWay-c71d23?logo=gitee&logoColor=white)](https://gitee.com/TechFunWay)
 
@@ -29,12 +29,10 @@
 - **部署简单** —— 提供 Docker 镜像（amd64 / arm64 多平台）、飞牛 fnOS `fpk` 安装包与裸二进制三种形态；
 - **手机能用** —— PC 与手机共用一套界面，窄屏不截断、一屏信息量足；
 - **备份可恢复** —— 备份必须能还原，并支持上传本地备份文件换机迁移；
-- **统一底座** —— 多数业务应用由 SmallGo 框架搭建，登录、权限、备份、审计、匿名统计等能力开箱即用。
 
 ## 应用全家福
 
 <p align="center">
-  <a href="https://techfunway.wycto.cn/fnapp/smallgo"><img src="https://raw.githubusercontent.com/TechFunWay/.github/main/profile/assets/icon-smallgo.png" width="64" alt="SmallGo 框架" title="SmallGo 框架"></a>
   <a href="https://github.com/TechFunWay/bookmarks"><img src="https://raw.githubusercontent.com/TechFunWay/.github/main/profile/assets/icon-bookmarks.png" width="64" alt="网址收藏夹" title="网址收藏夹"></a>
   <a href="https://github.com/TechFunWay/lottery"><img src="https://raw.githubusercontent.com/TechFunWay/.github/main/profile/assets/icon-lottery.png" width="64" alt="彩彩助手" title="彩彩助手"></a>
   <a href="https://github.com/TechFunWay/sqlite-manage"><img src="https://raw.githubusercontent.com/TechFunWay/.github/main/profile/assets/icon-sqlite-manage.png" width="64" alt="SQLite 管理工具" title="SQLite 管理工具"></a>
@@ -56,14 +54,6 @@
 
 > 版本徽章实时读取对应的 GitHub Release，点「Releases」即为该应用的下载页。
 
-### 公共底座
-
-| 项目 | 说明 | 获取 |
-|---|---|---|
-| **SmallGo 框架** | 全部自建应用的公共框架与脚手架：登录认证、用户权限、系统配置、备份恢复、审计日志、匿名统计、实时通道，并提供一键生成新应用的脚手架 | [应用介绍](https://techfunway.wycto.cn/fnapp/smallgo) |
-
-### 业务应用
-
 | 应用 | 说明 | 技术栈 | 版本 | 获取 |
 |---|---|---|---|---|
 | [**网址收藏夹**](https://github.com/TechFunWay/bookmarks) | 网址收藏管理，带死链清理、链接检查与浏览器扩展 | Go + 静态前端 | ![release](https://img.shields.io/github/v/release/TechFunWay/bookmarks?sort=semver&label=%E7%89%88%E6%9C%AC&color=2ea44f) | [Releases](https://github.com/TechFunWay/bookmarks/releases) · [Docker](https://hub.docker.com/r/techfunways/bookmarks) |
@@ -74,11 +64,11 @@
 | [**提醒事项**](https://github.com/TechFunWay/reminders) | 多渠道提醒：站内消息、电子邮件、短信、飞书机器人与 QQ 机器人 | Go + Vue 3 | ![release](https://img.shields.io/github/v/release/TechFunWay/reminders?sort=semver&label=%E7%89%88%E6%9C%AC&color=2ea44f) | [Releases](https://github.com/TechFunWay/reminders/releases) · [Docker](https://hub.docker.com/r/techfunways/reminders) |
 | [**账单**](https://github.com/TechFunWay/bill) | 个人与多人共享记账，灵活分摊（等额／比例／份额）与最少转账结算，支持微信、支付宝账单导入 | Go + Vue 3 | ![release](https://img.shields.io/github/v/release/TechFunWay/bill?sort=semver&label=%E7%89%88%E6%9C%AC&color=2ea44f) | [Releases](https://github.com/TechFunWay/bill/releases) · [Docker](https://hub.docker.com/r/techfunways/bill) |
 | [**方块游戏机**](https://github.com/TechFunWay/brick-game) | 经典 9999-in-1 掌机 HTML5 复刻，49 款小游戏，霓虹像素 + 8bit 芯片音乐，零依赖零构建 | 纯静态 + Go 静态服务 | ![release](https://img.shields.io/github/v/release/TechFunWay/brick-game?sort=semver&label=%E7%89%88%E6%9C%AC&color=2ea44f) | [Releases](https://github.com/TechFunWay/brick-game/releases) · [Docker](https://hub.docker.com/r/techfunways/brick-game) |
-| [**工记**](https://github.com/TechFunWay/worklog) | 记工记账：按天／按时／计件记工，班组协作、考勤日历、借支结算与工资条导出 | SmallGo + Vue 3 | ![release](https://img.shields.io/github/v/release/TechFunWay/worklog?sort=semver&label=%E7%89%88%E6%9C%AC&color=2ea44f) | [Releases](https://github.com/TechFunWay/worklog/releases) · [Docker](https://hub.docker.com/r/techfunways/worklog) |
-| [**租房管理**](https://github.com/TechFunWay/rental) | 房源、租约到期提醒、月度抄表账单、收款跟踪与收费单据 | SmallGo + Vue 3 | ![release](https://img.shields.io/github/v/release/TechFunWay/rental?sort=semver&label=%E7%89%88%E6%9C%AC&color=2ea44f) | [Releases](https://github.com/TechFunWay/rental/releases) · [Docker](https://hub.docker.com/r/techfunways/rental) |
-| [**合同管家**](https://github.com/TechFunWay/contract) | 自定义模板生成合同，占位符代入，打印导出 PDF | SmallGo + Vue 3 | ![release](https://img.shields.io/github/v/release/TechFunWay/contract?sort=semver&label=%E7%89%88%E6%9C%AC&color=2ea44f) | [Releases](https://github.com/TechFunWay/contract/releases) · [Docker](https://hub.docker.com/r/techfunways/contract) |
-| **搜集通** | 表单搜集与汇总：设计表单发链接、免登录填写带附件、判重控制、实时汇总导出 | SmallGo + Vue 3 | ![fnos](https://img.shields.io/badge/%E9%A3%9E%E7%89%9B-fpk-00A9E0) | [应用介绍](https://techfunway.wycto.cn/fnapp/collect) |
-| **DSH NAS** | DeepSeek dsh 网页版启动器，安装包内置 Node 运行时 | SmallGo + Vue 3 | ![fnos](https://img.shields.io/badge/%E9%A3%9E%E7%89%9B-fpk-00A9E0) | [应用介绍](https://techfunway.wycto.cn/fnapp/dsh-nas) |
+| [**工记**](https://github.com/TechFunWay/worklog) | 记工记账：按天／按时／计件记工，班组协作、考勤日历、借支结算与工资条导出 | Go + Vue 3 | ![release](https://img.shields.io/github/v/release/TechFunWay/worklog?sort=semver&label=%E7%89%88%E6%9C%AC&color=2ea44f) | [Releases](https://github.com/TechFunWay/worklog/releases) · [Docker](https://hub.docker.com/r/techfunways/worklog) |
+| [**租房管理**](https://github.com/TechFunWay/rental) | 房源、租约到期提醒、月度抄表账单、收款跟踪与收费单据 | Go + Vue 3 | ![release](https://img.shields.io/github/v/release/TechFunWay/rental?sort=semver&label=%E7%89%88%E6%9C%AC&color=2ea44f) | [Releases](https://github.com/TechFunWay/rental/releases) · [Docker](https://hub.docker.com/r/techfunways/rental) |
+| [**合同管家**](https://github.com/TechFunWay/contract) | 自定义模板生成合同，占位符代入，打印导出 PDF | Go + Vue 3 | ![release](https://img.shields.io/github/v/release/TechFunWay/contract?sort=semver&label=%E7%89%88%E6%9C%AC&color=2ea44f) | [Releases](https://github.com/TechFunWay/contract/releases) · [Docker](https://hub.docker.com/r/techfunways/contract) |
+| **搜集通** | 表单搜集与汇总：设计表单发链接、免登录填写带附件、判重控制、实时汇总导出 | Go + Vue 3 | ![fnos](https://img.shields.io/badge/%E9%A3%9E%E7%89%9B-fpk-00A9E0) | [应用介绍](https://techfunway.wycto.cn/fnapp/collect) |
+| **DSH NAS** | DeepSeek dsh 网页版启动器，安装包内置 Node 运行时 | Go + Vue 3 | ![fnos](https://img.shields.io/badge/%E9%A3%9E%E7%89%9B-fpk-00A9E0) | [应用介绍](https://techfunway.wycto.cn/fnapp/dsh-nas) |
 
 ## 界面预览
 
@@ -115,7 +105,6 @@
 
 | 应用 | 飞牛 fnOS `fpk` | Docker 镜像 | GitHub Releases | Gitee 发行版 | 官网介绍页 |
 |---|---|---|---|---|---|
-| SmallGo 框架 | ✅ amd64 / arm64 | — | — | — | [查看](https://techfunway.wycto.cn/fnapp/smallgo) |
 | 网址收藏夹 | ✅ | ✅ | ✅ | — | [查看](https://techfunway.wycto.cn/fnapp/bookmarks) |
 | 彩彩助手 | ✅ | ✅ | ✅ | — | [查看](https://techfunway.wycto.cn/fnapp/lottery) |
 | SQLite 管理工具 | ✅ | ✅ | ✅ | — | [查看](https://techfunway.wycto.cn/fnapp/sqlite-manage) |
@@ -130,7 +119,7 @@
 | 搜集通 | ✅ | — | — | — | [查看](https://techfunway.wycto.cn/fnapp/collect) |
 | DSH NAS | ✅ | — | — | — | [查看](https://techfunway.wycto.cn/fnapp/dsh-nas) |
 
-- 「—」表示该渠道暂未发布：**搜集通、DSH NAS、SmallGo 框架**目前只提供飞牛 fnOS 安装包，代码仓库尚未公开；**部分早期应用**（网址收藏夹、彩彩助手、SQLite 管理工具、备忘录、提醒事项、方块游戏机）已有 GitHub Release，Gitee 发行版还在陆续补齐。
+- 「—」表示该渠道暂未发布：**搜集通、DSH NAS**目前只提供飞牛 fnOS 安装包，代码仓库尚未公开；**部分早期应用**（网址收藏夹、彩彩助手、SQLite 管理工具、备忘录、提醒事项、方块游戏机）已有 GitHub Release，Gitee 发行版还在陆续补齐。
 - 国内访问 GitHub 不便时，请走 [Gitee 组织主页](https://gitee.com/TechFunWay) 或[官网](https://techfunway.wycto.cn)上的下载入口。
 
 ## 部署方式
@@ -157,8 +146,7 @@ docker compose up -d
 
 | 层 | 项目 | 说明 |
 |---|---|---|
-| 公共底座 | **SmallGo 框架** | 登录认证、用户权限、系统配置、备份恢复、审计、匿名统计、实时通道 + 新应用脚手架 |
-| 业务应用 | 12 款自建应用 | 多数由 SmallGo 搭建，统一交互与统一手机端布局 |
+| 业务应用 | 13 款自建应用 | 统一交互与统一手机端布局，同一套设计规范 |
 | 门户站点 | [**科技智趣坊**](https://techfunway.wycto.cn) | 全部应用的入口与介绍页，同时接收应用上报的匿名在线统计 |
 | 内容 | **公众号文章库** | 介绍自建应用与 NAS 玩法，非可运行应用 |
 
