@@ -37,7 +37,7 @@
   <a href="https://github.com/TechFunWay/lottery"><img src="https://raw.githubusercontent.com/TechFunWay/.github/main/profile/assets/icon-lottery.png" width="64" alt="彩彩助手" title="彩彩助手 v1.5.0"></a>
   <a href="https://github.com/TechFunWay/sqlite-manage"><img src="https://raw.githubusercontent.com/TechFunWay/.github/main/profile/assets/icon-sqlite-manage.png" width="64" alt="SQLite 管理工具" title="SQLite 管理工具 v1.5.0"></a>
   <a href="https://github.com/TechFunWay/notepad"><img src="https://raw.githubusercontent.com/TechFunWay/.github/main/profile/assets/icon-notepad.png" width="64" alt="记事本" title="记事本 v1.4.1"></a>
-  <a href="https://github.com/TechFunWay/memo"><img src="https://raw.githubusercontent.com/TechFunWay/.github/main/profile/assets/icon-memo.png" width="64" alt="备忘录" title="备忘录 v1.1.2"></a>
+  <a href="https://github.com/TechFunWay/memo"><img src="https://raw.githubusercontent.com/TechFunWay/.github/main/profile/assets/icon-memo.png" width="64" alt="备忘录" title="备忘录 v1.0.0"></a>
   <a href="https://github.com/TechFunWay/reminders"><img src="https://raw.githubusercontent.com/TechFunWay/.github/main/profile/assets/icon-reminders.png" width="64" alt="提醒事项" title="提醒事项 v0.3.0"></a>
   <a href="https://github.com/TechFunWay/bill"><img src="https://raw.githubusercontent.com/TechFunWay/.github/main/profile/assets/icon-bill.png" width="64" alt="账单" title="账单 v0.2.0"></a>
 </p>
@@ -46,14 +46,14 @@
   <a href="https://github.com/TechFunWay/worklog"><img src="https://raw.githubusercontent.com/TechFunWay/.github/main/profile/assets/icon-worklog.png" width="64" alt="工记" title="工记 v0.4.1"></a>
   <a href="https://github.com/TechFunWay/rental"><img src="https://raw.githubusercontent.com/TechFunWay/.github/main/profile/assets/icon-rental.png" width="64" alt="租房管理" title="租房管理 v0.7.1"></a>
   <a href="https://github.com/TechFunWay/contract"><img src="https://raw.githubusercontent.com/TechFunWay/.github/main/profile/assets/icon-contract.png" width="64" alt="合同管家" title="合同管家 v0.2.2"></a>
-  <a href="https://techfunway.wycto.cn/fnapp/collect"><img src="https://raw.githubusercontent.com/TechFunWay/.github/main/profile/assets/icon-collect.png" width="64" alt="搜集通" title="搜集通 v0.1.0"></a>
-  <a href="https://techfunway.wycto.cn/fnapp/dsh-nas"><img src="https://raw.githubusercontent.com/TechFunWay/.github/main/profile/assets/icon-dsh-nas.png" width="64" alt="DSH NAS" title="DSH NAS v0.1.7"></a>
+  <a href="https://techfunway.wycto.cn/fnapp/collect"><img src="https://raw.githubusercontent.com/TechFunWay/.github/main/profile/assets/icon-collect.png" width="64" alt="搜集通" title="搜集通 飞牛 v0.1.0（暂无发行版）"></a>
+  <a href="https://techfunway.wycto.cn/fnapp/dsh-nas"><img src="https://raw.githubusercontent.com/TechFunWay/.github/main/profile/assets/icon-dsh-nas.png" width="64" alt="DSH NAS" title="DSH NAS 飞牛 v0.1.7（暂无发行版）"></a>
 </p>
 
 ## 应用矩阵
 
-> 版本列为各应用**当前发布的版本号**，徽章可点，直达该版本的 Release 下载页。
-> 版本号核对至 **2026-10-31**，各应用发版后请同步更新本表（见文末「版本维护」）。
+> 版本号**一律以 GitHub 发行版（Releases）为准**，徽章可点，直达该发行版页面。
+> 数据核对于 **2026-10-31**，各应用发版后请同步更新本表（见文末「版本维护」）。
 
 | 应用 | 说明 | 技术栈 | 当前版本 | 获取 |
 |---|---|---|---|---|
@@ -61,19 +61,25 @@
 | [**彩彩助手**](https://github.com/TechFunWay/lottery) | 彩票购买记录、自动识别中奖与统计分析 | Go + Vue 3 | [![版本 v1.5.0](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v1.5.0-2ea44f)](https://github.com/TechFunWay/lottery/releases/tag/v1.5.0) | [Releases](https://github.com/TechFunWay/lottery/releases) · [Docker](https://hub.docker.com/r/techfunways/lottery) |
 | [**SQLite 管理工具**](https://github.com/TechFunWay/sqlite-manage) | SQLite 数据库 Web 管理工具，在线浏览、查询与编辑 | Go + Vue 3 | [![版本 v1.5.0](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v1.5.0-2ea44f)](https://github.com/TechFunWay/sqlite-manage/releases/tag/v1.5.0) | [Releases](https://github.com/TechFunWay/sqlite-manage/releases) · [Docker](https://hub.docker.com/r/techfunways/sqlite-manage) |
 | [**记事本**](https://github.com/TechFunWay/notepad) | 轻量多用户记事本，富文本、标签分类、暗色模式 | Go + Vue 3 | [![版本 v1.4.1](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v1.4.1-2ea44f)](https://github.com/TechFunWay/notepad/releases/tag/v1.4.1) | [Releases](https://github.com/TechFunWay/notepad/releases) · [Docker](https://hub.docker.com/r/techfunways/notepad) |
-| [**备忘录**](https://github.com/TechFunWay/memo) | 多用户备忘录，自适应 PC 与移动端，单文件部署 | Go + Vue 3 | ![版本 v1.1.2](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v1.1.2-2ea44f) | [Releases](https://github.com/TechFunWay/memo/releases) · [Docker](https://hub.docker.com/r/techfunways/memo) |
+| [**备忘录**](https://github.com/TechFunWay/memo) | 多用户备忘录，自适应 PC 与移动端，单文件部署 | Go + Vue 3 | [![版本 v1.0.0](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v1.0.0-2ea44f)](https://github.com/TechFunWay/memo/releases/tag/v1.0.0) | [Releases](https://github.com/TechFunWay/memo/releases) · [Docker](https://hub.docker.com/r/techfunways/memo) |
 | [**提醒事项**](https://github.com/TechFunWay/reminders) | 多渠道提醒：站内消息、电子邮件、短信、飞书机器人与 QQ 机器人 | Go + Vue 3 | [![版本 v0.3.0](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v0.3.0-2ea44f)](https://github.com/TechFunWay/reminders/releases/tag/v0.3.0) | [Releases](https://github.com/TechFunWay/reminders/releases) · [Docker](https://hub.docker.com/r/techfunways/reminders) |
 | [**账单**](https://github.com/TechFunWay/bill) | 个人与多人共享记账，灵活分摊（等额／比例／份额）与最少转账结算，支持微信、支付宝账单导入 | Go + Vue 3 | [![版本 v0.2.0](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v0.2.0-2ea44f)](https://github.com/TechFunWay/bill/releases/tag/v0.2.0) | [Releases](https://github.com/TechFunWay/bill/releases) · [Docker](https://hub.docker.com/r/techfunways/bill) |
 | [**方块游戏机**](https://github.com/TechFunWay/brick-game) | 经典 9999-in-1 掌机 HTML5 复刻，49 款小游戏，霓虹像素 + 8bit 芯片音乐，零依赖零构建 | 纯静态 + Go 静态服务 | [![版本 v0.1.0](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v0.1.0-2ea44f)](https://github.com/TechFunWay/brick-game/releases/tag/v0.1.0) | [Releases](https://github.com/TechFunWay/brick-game/releases) · [Docker](https://hub.docker.com/r/techfunways/brick-game) |
 | [**工记**](https://github.com/TechFunWay/worklog) | 记工记账：按天／按时／计件记工，班组协作、考勤日历、借支结算与工资条导出 | Go + Vue 3 | [![版本 v0.4.1](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v0.4.1-2ea44f)](https://github.com/TechFunWay/worklog/releases/tag/v0.4.1) | [Releases](https://github.com/TechFunWay/worklog/releases) · [Docker](https://hub.docker.com/r/techfunways/worklog) |
-| [**租房管理**](https://github.com/TechFunWay/rental) | 房源、租约到期提醒、月度抄表账单、收款跟踪与收费单据 | Go + Vue 3 | [![版本 v0.7.1](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v0.7.1-2ea44f)](https://github.com/TechFunWay/rental/releases/tag/v0.7.1) | [Releases](https://github.com/TechFunWay/rental/releases) · [Docker](https://hub.docker.com/r/techfunways/rental) |
+| [**租房管理**](https://github.com/TechFunWay/rental) | 房源、租约到期提醒、月度抄表账单、收款跟踪与收费单据 | Go + Vue 3 | [![版本 v0.7.1 预发布](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v0.7.1%20%E9%A2%84%E5%8F%91%E5%B8%83-eac308)](https://github.com/TechFunWay/rental/releases/tag/v0.7.1) | [Releases](https://github.com/TechFunWay/rental/releases) · [Docker](https://hub.docker.com/r/techfunways/rental) |
 | [**合同管家**](https://github.com/TechFunWay/contract) | 自定义模板生成合同，占位符代入，打印导出 PDF | Go + Vue 3 | [![版本 v0.2.2](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v0.2.2-2ea44f)](https://github.com/TechFunWay/contract/releases/tag/v0.2.2) | [Releases](https://github.com/TechFunWay/contract/releases) · [Docker](https://hub.docker.com/r/techfunways/contract) |
-| **搜集通** | 表单搜集与汇总：设计表单发链接、免登录填写带附件、判重控制、实时汇总导出 | Go + Vue 3 | ![版本 v0.1.0](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v0.1.0-00A9E0) | [应用介绍](https://techfunway.wycto.cn/fnapp/collect) · 飞牛 `fpk` |
-| **DSH NAS** | DeepSeek dsh 网页版启动器，安装包内置 Node 运行时 | Go + Vue 3 | ![版本 v0.1.7](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v0.1.7-00A9E0) | [应用介绍](https://techfunway.wycto.cn/fnapp/dsh-nas) · 飞牛 `fpk` |
+| **搜集通** | 表单搜集与汇总：设计表单发链接、免登录填写带附件、判重控制、实时汇总导出 | Go + Vue 3 | ![发行版暂未发布](https://img.shields.io/badge/%E5%8F%91%E8%A1%8C%E7%89%88-%E6%9A%82%E6%9C%AA%E5%8F%91%E5%B8%83-959da5) | [应用介绍](https://techfunway.wycto.cn/fnapp/collect) · 飞牛 `fpk` v0.1.0 |
+| **DSH NAS** | DeepSeek dsh 网页版启动器，安装包内置 Node 运行时 | Go + Vue 3 | ![发行版暂未发布](https://img.shields.io/badge/%E5%8F%91%E8%A1%8C%E7%89%88-%E6%9A%82%E6%9C%AA%E5%8F%91%E5%B8%83-959da5) | [应用介绍](https://techfunway.wycto.cn/fnapp/dsh-nas) · 飞牛 `fpk` v0.1.7 |
 
-**版本维护**：上表版本号为写死的**当前发布版本**，来源是各应用 `fnpack/manifest` 与
-GitHub Release；某应用发新版后，把徽章文本里的版本号与链接尾部的 `releases/tag/v<版本>`
-一起改掉即可（未公开仓库的搜集通、DSH NAS 只改徽章文本）。
+**版本维护**：版本列取的是该应用在本组织 GitHub 上**最新发行版的 tag**，
+不按安装包或代码里的版本号写。应用发新版后改两处——徽章文本里的版本号，
+以及链接尾部的 `releases/tag/v<版本>`；发的是预发布版时把徽章颜色换成 `eac308`
+并加「预发布」字样。三点补充：
+
+- **备忘录**显示 v1.0.0：GitHub 发行版目前只发到 v1.0.0，补发新发行版后请同步改这里；
+- **租房管理** v0.7.1 在 GitHub 上标记为预发布版，徽章用黄色并注明；
+- **搜集通、DSH NAS** 代码仓库尚未公开，没有 GitHub 发行版，版本列显示暂未发布，
+  飞牛安装包版本改在「获取」列注明。
 
 ## 界面预览
 
