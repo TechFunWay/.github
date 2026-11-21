@@ -48,7 +48,7 @@
   <a href="https://github.com/TechFunWay/contract"><img src="https://raw.githubusercontent.com/TechFunWay/.github/main/profile/assets/icon-contract.png" width="64" alt="合同管家" title="合同管家 v0.2.2"></a>
   <a href="https://techfunway.wycto.cn/fnapp/collect"><img src="https://raw.githubusercontent.com/TechFunWay/.github/main/profile/assets/icon-collect.png" width="64" alt="搜集通" title="搜集通 飞牛 v0.1.0（暂无发行版）"></a>
   <a href="https://techfunway.wycto.cn/fnapp/dsh-nas"><img src="https://raw.githubusercontent.com/TechFunWay/.github/main/profile/assets/icon-dsh-nas.png" width="64" alt="DSH NAS" title="DSH NAS 飞牛 v0.1.7（暂无发行版）"></a>
-  <a href="https://github.com/TechFunWay/medcare"><img src="https://raw.githubusercontent.com/TechFunWay/.github/main/profile/assets/icon-medcare.png" width="64" alt="用药管理" title="用药管理 v0.1.39"></a>
+  <a href="https://github.com/TechFunWay/medcare"><img src="https://raw.githubusercontent.com/TechFunWay/.github/main/profile/assets/icon-medcare.png" width="64" alt="用药管理" title="用药管理 v0.2.0"></a>
 </p>
 
 ## 应用矩阵
@@ -69,7 +69,7 @@
 | [**工记**](https://github.com/TechFunWay/worklog) | 记工记账：按天／按时／计件记工，班组协作、考勤日历、借支结算与工资条导出 | Go + Vue 3 | [![版本 v0.4.1](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v0.4.1-2ea44f)](https://github.com/TechFunWay/worklog/releases/tag/v0.4.1) | [Releases](https://github.com/TechFunWay/worklog/releases) · [Docker](https://hub.docker.com/r/techfunways/worklog) |
 | [**租房管理**](https://github.com/TechFunWay/rental) | 房源、租约到期提醒、月度抄表账单、收款跟踪与收费单据 | Go + Vue 3 | [![版本 v0.7.1 预发布](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v0.7.1%20%E9%A2%84%E5%8F%91%E5%B8%83-eac308)](https://github.com/TechFunWay/rental/releases/tag/v0.7.1) | [Releases](https://github.com/TechFunWay/rental/releases) · [Docker](https://hub.docker.com/r/techfunways/rental) |
 | [**合同管家**](https://github.com/TechFunWay/contract) | 自定义模板生成合同，占位符代入，打印导出 PDF | Go + Vue 3 | [![版本 v0.2.2](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v0.2.2-2ea44f)](https://github.com/TechFunWay/contract/releases/tag/v0.2.2) | [Releases](https://github.com/TechFunWay/contract/releases) · [Docker](https://hub.docker.com/r/techfunways/contract) |
-| [**用药管理**](https://github.com/TechFunWay/medcare) | 家庭协作用药本：药品批次库存、用药计划与打卡、处方 AI 识别、多渠道提醒与依从性统计 | Go + Vue 3 | [![版本 v0.1.39](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v0.1.39-2ea44f)](https://github.com/TechFunWay/medcare/releases/tag/v0.1.39) | [Releases](https://github.com/TechFunWay/medcare/releases) · 飞牛 `fpk` |
+| [**用药管理**](https://github.com/TechFunWay/medcare) | 家庭协作用药本：药品批次库存、用药计划与打卡、处方 AI 识别、多渠道提醒与依从性统计 | Go + Vue 3 | [![版本 v0.2.0](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v0.2.0-2ea44f)](https://github.com/TechFunWay/medcare/releases/tag/v0.2.0) | [Releases](https://github.com/TechFunWay/medcare/releases) · 飞牛 `fpk` |
 | **搜集通** | 表单搜集与汇总：设计表单发链接、免登录填写带附件、判重控制、实时汇总导出 | Go + Vue 3 | ![发行版暂未发布](https://img.shields.io/badge/%E5%8F%91%E8%A1%8C%E7%89%88-%E6%9A%82%E6%9C%AA%E5%8F%91%E5%B8%83-959da5) | [应用介绍](https://techfunway.wycto.cn/fnapp/collect) · 飞牛 `fpk` v0.1.0 |
 | **DSH NAS** | DeepSeek dsh 网页版启动器，安装包内置 Node 运行时 | Go + Vue 3 | ![发行版暂未发布](https://img.shields.io/badge/%E5%8F%91%E8%A1%8C%E7%89%88-%E6%9A%82%E6%9C%AA%E5%8F%91%E5%B8%83-959da5) | [应用介绍](https://techfunway.wycto.cn/fnapp/dsh-nas) · 飞牛 `fpk` v0.1.7 |
 
